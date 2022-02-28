@@ -10,6 +10,7 @@ Check out this [link](https://towardsdatascience.com/generalized-linear-models-9
 For each of these datasets, I set aside 1/3 of the data for the test set. I then iterated through using different portions of the training data to train and then subsequently test our model and plotted error, # of iterations until convergence, and run time all as a function of training set size.
 
 ### Logistic Regression (A and usps datasets)
+<img src="https://github.com/bjmcshane/bayesian-GLM/blob/main/images/A.png?raw=true" alt="drawing" width="200"/>
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/A.png?raw=true)
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/A_iterations.png?raw=true)
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/A_runtime.png?raw=true)
@@ -18,10 +19,12 @@ For each of these datasets, I set aside 1/3 of the data for the test set. I then
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/usps_runtime.png?raw=true)
 
 
+
 ### Count/Poisson Regression (AP dataset)
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/AP.png?raw=true)
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/AP_iterations.png?raw=true)
 ![alt text](https://github.com/bjmcshane/bayesian-GLM/blob/main/images/AP_runtime.png?raw=true)
+
 
 
 ### Ordinal Regression (AO dataset)
